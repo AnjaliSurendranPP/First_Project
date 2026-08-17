@@ -1,8 +1,14 @@
 .heading{
     color:red;
     font-size: 100px;
-
+    margin-bottom:0px;
 }
 body{
     background-color: burlywood;
+}
+.heading2{
+     color:red;
+    font-size: 60px;
+    margin-left:100px;
+    margin-top: 0px;
 }
