@@ -12,3 +12,46 @@ body{
     margin-left:100px;
     margin-top: 0px;
 }
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+}
+navbar {
+ display: flex;
+ align-items: center;
+ background-color: #333;
+ color: white;
+ padding: 0 20px;
+ height: 60px;
+}
+logo {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+.menu {
+ list-style: none;
+ display: flex;
+ margin-left: auto;
+}
+.menu li a {
+ color: white;
+ text-decoration: none;
+ padding: 0 15px;
+ line-height: 60px;
+}
+ .menu {
+   flex-direction: column;
+   position: absolute;
+   top: 60px;
+   left: 0;
+   right: 0;
+   background-color: #333;
+   display: none;
+   padding-bottom: 10px;
+ }
+ .menu li a {
+   padding: 10px;
+   text-align: center;
+   line-height: normal;
+   border-bottom: solid white thin; /* Optional for better visibility */
+ }
